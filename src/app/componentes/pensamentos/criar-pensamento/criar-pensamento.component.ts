@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import {Pensamento} from "../pensamento";
 import {PensamentoService} from "../pensamento.service";
 import {Router} from "@angular/router";
 import {FormBuilder, FormGroup, Validators} from "@angular/forms";
@@ -31,7 +30,8 @@ export class CriarPensamentoComponent implements OnInit {
         Validators.minLength(3),
         minusculoValidator
       ])],
-      modelo: ['modelo1']
+      modelo: ['modelo1'],
+      favorito: [false]
     });
   }
 

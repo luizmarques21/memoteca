@@ -4,25 +4,36 @@
       "id": 1,
       "conteudo": "Que bom que vc veio",
       "autoria": "Nay",
-      "modelo": "modelo1"
+      "modelo": "modelo1",
+      "favorito": true
     },
     {
       "id": 2,
       "conteudo": "Estudando Angular",
       "autoria": "Dev Alura",
-      "modelo": "modelo2"
+      "modelo": "modelo2",
+      "favorito": false
     },
     {
       "id": 3,
       "conteudo": "Angular é o melhor'",
       "autoria": "Dev Alura",
-      "modelo": "modelo3"
+      "modelo": "modelo3",
+      "favorito": false
     },
     {
       "conteudo": "Pensamento de teste kjhlkjhlkjkl",
       "autoria": "Dev Angular",
       "modelo": "modelo3",
+      "favorito": false,
       "id": 4
+    },
+    {
+      "conteudo": "Aprendendo Angular",
+      "autoria": "asasasa",
+      "modelo": "modelo1",
+      "favorito": true,
+      "id": 5
     }
   ]
 }
